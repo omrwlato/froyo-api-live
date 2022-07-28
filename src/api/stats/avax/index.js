@@ -33,12 +33,16 @@ const getZombieSingleApys = require('./getZombieSingleApys');
 const getZombieApys = require('./getZombieApys');
 const getFrozenApys = require('./getFrozenApys');
 const getFrozenSingleApys = require('./getFrozenSingleApys');
+const getSnowApys = require('./getSnowApys');
+const getSnowSingleApys = require('./getSnowSingleApys');
 
 const getApys = [
   getZombieApys,
   getZombieSingleApys,
   getFrozenApys,
   getFrozenSingleApys,
+  getSnowApys,
+  getSnowSingleApys,
   getSundaeSingleApys,
   getIceCreamSingleApys,
   getPiggyApys,

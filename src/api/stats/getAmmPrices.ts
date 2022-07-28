@@ -231,6 +231,7 @@ import creamPools from '../../data/avax/icecreamLpPools.json';
 import piggyPools from '../../data/avax/piggyLpPools.json';
 import zombiePools from '../../data/avax/zombieLpPools.json';
 import frozenPools from '../../data/avax/frozenLpPools.json';
+import snowPools from '../../data/avax/snowLpPools.json';
 import toxicPools from '../../data/cronos/toxicLpPools.json';
 //import sundaeSinglePools from '../../data/avax/sundaePool.json';
 //import creamSinglePools from '../../data/avax/icecreamPool.json';
@@ -246,6 +247,7 @@ const REFRESH_INTERVAL = 5 * 60 * 1000;
 // FIXME: if this list grows too big we might hit the ratelimit on initialization everytime
 // Implement in case of emergency -> https://github.com/beefyfinance/beefy-api/issues/103
 const pools = [
+  ...snowPools,
   ...toxicPools,
   ...frozenPools,
   ...zombiePools,

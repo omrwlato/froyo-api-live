@@ -1,0 +1,11 @@
+[
+  {
+    "name": "snow-stomb",
+    "poolId": 4,
+    "address": "0x9e6832D13b29d0B1C1c3465242681039b31C7a05",
+    "oracle": "tokens",
+    "oracleId": "STOMB",
+    "decimals": "1e18",
+    "chainId": 43114
+  }
+]
