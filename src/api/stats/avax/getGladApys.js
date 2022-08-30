@@ -13,7 +13,7 @@ const getGladApys = async () =>
     tokenPerBlock: 'rewardPerSecond',
     hasMultiplier: false,
     pools: pools,
-    oracleId: 'GLADSHARE',
+    oracleId: 'GLAD',
     oracle: 'tokens',
     decimals: '1e18',
     secondsPerBlock: 1,

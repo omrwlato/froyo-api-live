@@ -5,16 +5,16 @@
     "decimals": "1e18",
     "poolId": 0,
     "chainId": 43114,
-    "lp0": {
-      "address": "0xA7c43db4c0F6b59EC3BA65e256025721871AbA7D",
-      "oracle": "tokens",
-      "oracleId": "GLAD",
-      "decimals": "1e18"
-    },
     "lp1": {
       "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
       "oracle": "tokens",
       "oracleId": "AVAX",
+      "decimals": "1e18"
+    },
+    "lp0": {
+      "address": "0xA7c43db4c0F6b59EC3BA65e256025721871AbA7D",
+      "oracle": "tokens",
+      "oracleId": "GLAD",
       "decimals": "1e18"
     }
   },
@@ -24,16 +24,16 @@
     "decimals": "1e18",
     "poolId": 1,
     "chainId": 43114,
-    "lp0": {
-      "address": "0x8605D0230D5dF8E2A20d8e50F9460E42B4657Cbb",
-      "oracle": "tokens",
-      "oracleId": "GLADSHARE",
-      "decimals": "1e18"
-    },
     "lp1": {
       "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
       "oracle": "tokens",
       "oracleId": "AVAX",
+      "decimals": "1e18"
+    },
+    "lp0": {
+      "address": "0x8605D0230D5dF8E2A20d8e50F9460E42B4657Cbb",
+      "oracle": "tokens",
+      "oracleId": "GLADSHARE",
       "decimals": "1e18"
     }
   }
