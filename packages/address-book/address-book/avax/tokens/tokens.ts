@@ -15,6 +15,29 @@ const AVAX = {
 } as const;
 
 const _tokens = {
+  GLADSHARE: {
+    name: 'Gladiator Finance GLADSHARE',
+    symbol: 'GLADSHARE',
+    address: '0x8605D0230D5dF8E2A20d8e50F9460E42B4657Cbb',
+    chainId: 43114,
+    decimals: 18,
+    website: 'https://gladiatorfinance.app/',
+    description:
+      'Algo stablecoin on Avalanche C Chain, pegged to the price of AVAX via seigniorage.',
+    logoURI:
+      'https://gladiatorfinance.app/static/media/gladshare.cfe50c1eec1a32505eea36ad48162770.svg',
+  },
+  GLAD: {
+    name: 'Gladiator Finance',
+    symbol: 'GLAD',
+    address: '0xA7c43db4c0F6b59EC3BA65e256025721871AbA7D',
+    chainId: 43114,
+    decimals: 18,
+    website: 'https://gladiatorfinance.app/',
+    description:
+      'Algo stablecoin on Avalanche C Chain, pegged to the price of AVAX via seigniorage.',
+    logoURI: 'https://gladiatorfinance.app/static/media/logo.935603ac7c14df7f24846a345930b9c6.svg',
+  },
   STOMB: {
     name: 'Snowtomb Token',
     symbol: 'STOMB',
